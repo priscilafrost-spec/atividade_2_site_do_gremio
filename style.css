@@ -1,7 +1,7 @@
 body {
     margin: 0px;
     padding: 0px;
-    background-color: rgb(111, 163, 246);
+    background-color: rgb(0, 0, 0);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 }
@@ -18,8 +18,8 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: rgb(7, 49, 98);
-    color: white;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -28,7 +28,7 @@ body {
     text-align: center;
     flex-wrap: wrap;
     justify-content: space-around;
-    background-color: rgb(94, 138, 209);
+    background-color: rgb(46, 46, 46);
     padding: 6px;
     margin: 40px;
     border-radius: 40px;
@@ -38,8 +38,8 @@ body {
 .noticia {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: rgb(255, 255, 255);
-    background-color: rgb(72, 155, 243);
-    border: 4px solid rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    border: 4px solid rgb(0, 0, 0);
 }
 
 .img_noticia {
@@ -48,74 +48,55 @@ body {
 }
 
 footer {
-    background-color: rgb(7, 49, 98);
+    background-color: rgb(255, 255, 255);
     padding: 10px;
     text-align: center;
-    color: white;
+    color: rgb(0, 0, 0);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .barra-sticky {
     position: sticky;
     top: 0px;
-    background-color: rgb(255, 221, 0);
-    color: rgb(7, 49, 98);
+    background-color: rgb(99, 0, 0);
+    color: rgb(255, 255, 255);
     padding: 12px;
     font-weight: bold;
     text-align: center;
-    border-bottom: 4px solid rgb(7, 49, 98);
+    border-bottom: 4px solid rgb(88, 0, 0);
 }
 
 .posicao{
     margin: 40px;
     padding: 20px;
     border-radius: 40px;
-    background-color: rgb(72, 155, 243);
-    color: white;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    text-align: center;
 }
 
-.pos-box{
-    width: 420px;
-    margin: 20px auto;
-    padding: 15px;
-    border: 4px solid white;
-    background-color: rgb(72, 155, 243);
-    color: white;
+
+.jogador {
+    width: 50px;
+    align-items: center;
 }
 
-.pos-static {
-    position: static;
-    top: 40px;
-    left: 40px;
+.jogador img {
+    width: 100%;
 }
 
-.pos-relative {
-    position: relative;
-    top: 20px;
-    left: 30px;
-    background-color: rgb(255, 221, 0);
-    color: (rgb(7, 49, 98);)
+.flex {
+    display: flex;
 }
 
-.pai{
-    width: 520px;
-    height: 160px;
-    margin: 20px auto;
-    padding: 20px;
-    border-radius: 20px;
-    border: 4px solid white;
-    background-color: rgb(72, 155, 243);
-    position: relative;
-    color: white;
-    font-weight: bold;
+.escalacao {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
 }
 
-.filho {
-    position: absolute;
-    right: 15px;
-    bottom: 15px;
-    padding: 8px 12px;
-    background-color: rgb(255, 221, 0);
-    color: rgb(7, 49, 98);
-    border: 3px solid rgb(7, 49, 98);
-    border-radius: 20px;
+.mascotevasco-fixado{
+    position: fixed;
+    bottom: 10px;
+    right: 10;
+    width: 200px;
 }
